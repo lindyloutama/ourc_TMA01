@@ -1,0 +1,85 @@
+/*This is a CSS comment*/
+
+body {
+	padding: auto;
+	margin: 0px;
+	text-align: center;
+	color: #25323A;
+	background-color: #c4e3e8;
+}
+
+h1 {
+	background-color: darkblue;
+	color: white;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 25px;
+}
+
+.pagelinks {
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	background-color: lightblue;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+a {
+	color: darkblue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/* table styling added to create border around each section of the table*/
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+/* css added to center the table*/
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	font-size: 18px;
+	padding: 12px;
+}
+
+td.pb {
+	background: #66ff66;
+}
+
+td.sr {
+	background: #ff6666;
+}
+
+.sponsoredlink {
+	margin: 0;
+	width: 100%;
+	text-align: left;
+	list-style-position: inside;
+	padding-bottom: 15px;
+	padding-left: 480px;
+}
+
+.sectionhome,
+.funrun {
+	position: static;
+	width: 100%;	
+	color: #000000;
+	text-align: center;
+	border: 2px solid black;
+}
+
+#footer {
+	
+	text-align: left;
+	font-size: 10px;
+}
