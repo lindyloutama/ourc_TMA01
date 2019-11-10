@@ -1,8 +1,6 @@
 /*This is a CSS comment*/
 
 body {
-	padding: auto;
-	margin: 0px;
 	text-align: center;
 	color: #25323A;
 	background-color: #c4e3e8;
@@ -27,10 +25,11 @@ h1 {
 
 a {
 	color: darkblue;
+	text-decoration: none;
+	padding: 4px;
 }
 
 a:hover {
-	text-decoration: none;
 	color: white;
 }
 
@@ -63,23 +62,21 @@ td.sr {
 .sponsoredlink {
 	margin: 0;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	list-style-position: inside;
 	padding-bottom: 15px;
-	padding-left: 480px;
 }
 
 .sectionhome,
 .funrun {
 	position: static;
-	width: 100%;	
+	width: 100%;
 	color: #000000;
 	text-align: center;
 	border: 2px solid black;
 }
 
 #footer {
-	
-	text-align: left;
+	text-align: right;
 	font-size: 10px;
 }
