@@ -1,8 +1,5 @@
-/*This is a CSS comment*/
-
 body {
 	text-align: center;
-	color: #25323A;
 	background-color: #c4e3e8;
 }
 
@@ -21,6 +18,7 @@ h1 {
 	background-color: lightblue;
 	box-sizing: border-box;
 	padding: 20px;
+
 }
 
 a {
